@@ -1,0 +1,12 @@
+﻿<Window x:Class="DispIMEMode2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DispIMEMode2"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        SizeToContent="WidthAndHeight"
+        Loaded="OnLoad" FontFamily="MS UI Gothic" HorizontalAlignment="Left" VerticalAlignment="Top" Icon="large.ico" Topmost="True" ShowInTaskbar="False" Focusable="False" IsHitTestVisible="False" IsTabStop="False" ShowActivated="False" ScrollViewer.VerticalScrollBarVisibility="Disabled" IsEnabled="False" AutomationProperties.IsOffscreenBehavior="Offscreen" Cursor="No" ResizeMode="NoResize"
+        >
+    <Label x:Name="IMEMode" HorizontalAlignment="Left" VerticalAlignment="Top" UseLayoutRounding="False" FontFamily="MS Gothic" FontSize="48" FontWeight="Bold" IsHitTestVisible="False" Foreground="Red" Background="#FFE8DF1C"/>
+</Window>
